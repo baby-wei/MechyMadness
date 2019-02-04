@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Entropy"
+date:   2019-02-04 21:45:31 +0530
+categories: thermo2
+author: "babywei"
+---
+Entropy is one of the most repeated terms in Thermodynamics II. But do we truly understand it?
+
+Here's a good article on Wikipedia which explains about entropy intuitively.
+
+[Link >> Entropy](https://en.wikipedia.org/wiki/Introduction_to_entropy)
