@@ -12,7 +12,7 @@ $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+$spacing-unit:     28px;
 // Width of the content area
 $content-width:    800px;
 
@@ -250,9 +250,10 @@ pre {
 
 .post {
   font-family: "Source Sans Pro";
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
   padding-top: 0;
+  text-align: center;
 }
 .home{
   padding-bottom: 5em;
@@ -309,6 +310,7 @@ pre {
   font-weight: 300;
   letter-spacing: 2px;
   text-indent: 2px;
+  color: #818181;
 }
 .postTag {
   float: right;
@@ -331,7 +333,7 @@ pre {
   position: relative;
 }
 .site-title {
-  font-size: 64px;
+  font-size: 32px;
   font-weight: 100;
   font-family: 'PT Sans';
   text-transform: capitalize;
@@ -339,7 +341,7 @@ pre {
   margin-top: 1em;
 }
 .site-description {
-  font-size: 14px;
+  font-size: 12px;
   letter-spacing: 2px;
   text-indent: 6px;
   font-family: 'Josefin Sans';
@@ -364,6 +366,7 @@ pre {
   font-family: "PT Sans";
   font-size: 12px;
   text-align:center;
+  color: #818181;
 }
 .page-tagline {
   font-size: 18px;
@@ -510,27 +513,28 @@ pre {
  */
 .post-header {
   margin-bottom: $spacing-unit;
+  margin-top: 15px;
 }
 .post-title {
-  font-size: 62px;
+  font-size: 32px;
 
   text-align: center;
   font-family: "PT Sans";
   font-weight: 900;
   @include media-query($on-laptop) {
-    font-size: 36px;
+    font-size: 26px;
   }
 }
 .post-content {
   margin-bottom: $spacing-unit;
   padding-bottom: 3em !important;
   p {
-    font-size: 1.5rem;
+    font-size: 1.0rem;
   }
   h2 {
-    font-size: 32px;
+    font-size: 28px;
     @include media-query($on-laptop) {
-      font-size: 28px;
+      font-size: 24px;
     }
   }
   h3 {
