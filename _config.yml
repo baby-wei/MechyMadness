@@ -12,6 +12,8 @@ description: Understanding Engineering the intuitive way
 baseurl: "/MechyMadness" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 github_username:  baby-wei
+whatsapp: 016 878 8392
+gmail: zwjong98@gmail.com
 paginate: 5
 theme-dark: true #Set to true to change to dark website theme
 

@@ -2,7 +2,10 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading small-site-title">{{ site.title }}</h2>
+    <h2 class="footer-heading small-site-title">
+      {{ site.title }}
+      <div class="site-description" style="color: #818181; padding: 5px 0 15px;">{{ site.description }}</div>
+    </h2>
 
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
@@ -12,24 +15,20 @@
         </ul>
       </div>
 
-      <div class="footer-col footer-col-2 footer-content">
+      <div class="footer-col footer-col-1 footer-content">
         <ul class="social-media-list">
-          {% if site.github_username %}
+          {% if site.whatsapp %}
           <li>
-            {% include icon-github.html username=site.github_username %}
+            {% include icon-whatsapp.html object=site.whatsapp %}
           </li>
           {% endif %}
 
-          {% if site.twitter_username %}
+          {% if site.gmail %}
           <li>
-            {% include icon-twitter.html username=site.twitter_username %}
+            {% include icon-gmail.html object=site.gmail %}
           </li>
           {% endif %}
         </ul>
-      </div>
-
-      <div class="footer-col footer-col-3 site-description">
-        <p>{{ site.description }}</p>
       </div>
     </div>
 
