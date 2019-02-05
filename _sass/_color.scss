@@ -23,7 +23,7 @@ $l-page: $l-link-color;
  * Dark color palette
  */
 $d-text-color:       #e7e7e7;
-$d-link-color:       #cccccc;
+$d-link-color:       #818181;
 $d-background-color: #191919;
 $d-brand-color:      #2a7ae2;
 $d-grey-color:       #A7A7A7;
@@ -165,12 +165,12 @@ body.dark {
     color: $d-link-color !important;
 
     &:visited {
-        color: darken($d-brand-color, 50%);
+        color: lighten($d-brand-color, 50%);
     }
 
     &:hover {
-        color: darken($d-link-color, 50%) !important;
-        border-color: darken($d-link-color, 15%);
+        color: lighten($d-link-color, 50%) !important;
+        border-color: lighten($d-link-color, 15%);
     }
 
     &.page-link{
