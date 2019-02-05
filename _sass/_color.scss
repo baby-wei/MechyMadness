@@ -70,19 +70,11 @@ body.light {
           border-color: $l-crimson;
       }
     }
-    &.post-title-link{
-      color: darken($l-link-color, 50%) !important;
-
-      &:visited {
-          color: $l-crimson !important;
-          border-color: $l-crimson;
-      }
-    }
   }
 
   blockquote {
     color: $l-grey-color;
-    border-left-color: $l-grey-color-light;
+    border-left-color: $l-grey-color;
   }
 
   /**
@@ -187,19 +179,11 @@ body.dark {
           border-color: $d-crimson;
       }
     }
-    &.post-title-link{
-      color: darken($d-link-color, 50%) !important;
-
-      &:visited {
-          color: $d-crimson !important;
-          border-color: $d-crimson;
-      }
-    }
   }
 
   blockquote {
     color: $d-grey-color;
-    border-left-color: $d-grey-color-light;
+    border-left-color: $d-grey-color;
   }
 
   /**
@@ -261,6 +245,9 @@ body.dark {
    */
   .post-meta {
     color: $d-grey-color;
+  }
+  .post-title {
+    color: $d-crimson;
   }
 
   /**
